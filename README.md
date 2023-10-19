@@ -1,3 +1,3 @@
 # DSA
 
-## Leetcode 75 Challenge:
+## Leetcode 75 Challenge
