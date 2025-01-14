@@ -50,6 +50,19 @@ public class EasyProblems {
         return true;
     }
 
+    public static String reverseString(String word) {
+        String reversedWord = new StringBuilder(word).reverse().toString();
+        return reversedWord;
+    }
+
+    public static String reverseString2(String word) {
+        String reversedWord = "";
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversedWord += word.charAt(i);
+        }
+        return reversedWord;
+    }
+
     public static boolean containDuplicates(int[] nums) {
         Set<Integer> newSet = new HashSet<Integer>();
         for (int num : nums) {

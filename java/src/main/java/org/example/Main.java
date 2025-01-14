@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.*;
 import static org.example.EasyProblems.*;
+import static org.example.DynamicProblems.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,9 +28,20 @@ public class Main {
 //        int[] nums = {7, 1, 4, 3, 6, 4};
 //        System.out.println(containDuplicates(nums));
 
+// -------------------------Reverse String-------------------------------
+//        String word = "Java";
+//        System.out.println(reverseString(word));
+//        System.out.println(reverseString2(word));
+
 // -------------------------contain most water-------------------------------
-        int[] height = {1,8,6,2,5,4,8,3,7};
-        System.out.println(containMostWater(height));
+//        int[] height = {1,8,6,2,5,4,8,3,7};
+//        System.out.println(containMostWater(height));
+
+// -------------------------Is palindrome-------------------------------
+//        int[] nums = {3, 1, 0, 4};
+//        int missingNumber = missingNumber(nums);
+//        System.out.println("Missing number is " + missingNumber);
+
     }
 
 }
