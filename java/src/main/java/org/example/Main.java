@@ -24,7 +24,7 @@ public class Main {
 // -------------------------Is palindrome-------------------------------
 //    System.out.println(isPalindrome("word"));
 //
-// -------------------------Is palindrome-------------------------------
+// -------------------------Is contains dub-------------------------------
 //        int[] nums = {7, 1, 4, 3, 6, 4};
 //        System.out.println(containDuplicates(nums));
 
@@ -41,6 +41,7 @@ public class Main {
 //        int[] nums = {3, 1, 0, 4};
 //        int missingNumber = missingNumber(nums);
 //        System.out.println("Missing number is " + missingNumber);
+
 
     }
 

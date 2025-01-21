@@ -39,14 +39,19 @@ public class EasyProblems {
     }
 
     public static boolean isPalindrome(String word) {
-        String processedWork = word.replaceAll(" ", "").toLowerCase();
-        int num = word.length();
+        String cleanedWord = word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+        int left = 0;
+        int right = cleanedWord.length() - 1;
 
-        for (int i = 0; i < num / 2; i++) {
-            if (processedWork.charAt(i) != processedWork.charAt(num - i - 1)) {
+        while (left<right) {
+            if (cleanedWord.charAt(left) != cleanedWord.charAt(right)) {
                 return false;
             }
+
+            left++;
+            right--;
         }
+
         return true;
     }
 
@@ -90,4 +95,5 @@ public class EasyProblems {
 
         return maxWater;
     }
+
 }
